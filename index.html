@@ -14,22 +14,23 @@
   </head>
   <style>
     body {
-      width: 600px;
-      margin: 0 auto;
+      width: 750px;
+      margin: 100px auto;
     }
     .completed {
       position: absolute;
-      top: 35px;
     }
     .completed span {
       background: #aa7a1a;
       position: relative;
-      left: 8px;
-      padding: 3px 6px;
+      left: 10px;
+      top: -20px;
+      padding: 1px 2px;
       border-radius: 25px;
     }
     .completed i {
       color: #fff;
+      padding: 2px;
     }
   </style>
   <body>
@@ -62,7 +63,11 @@
           aria-controls="nav-profile"
           aria-selected="false"
         >
-          <span class="completed"><i class="bi bi-check2-circle"></i></span>
+          <p class="completed">
+            <span>
+              <i class="bi bi-check2-circle"></i>
+            </span>
+          </p>
           Profile
         </a>
         <a
